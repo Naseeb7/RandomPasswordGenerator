@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Random Password Generator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/dea9aa3e87.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="cardcontainer">
+        <h1 class="header">Random Password Generator</h1>
+        <div class="passwordcontainer">
+        <div id="password"></div>
+        <i id="copytext" onclick="copytext()" class="fa-solid fa-copy"></i>
+        </div>
+        <form>
+            <input type="text" id="length" placeholder="Enter length of password"><br>
+            <label for="strong"><input type="radio" class="radiobtn" id="strong" name="passwordtype" value="strong">Strong Password</label><br>
+            
+            <label for="moderate"><input type="radio" class="radiobtn" id="moderate" name="passwordtype" value="moderate">Moderate Password</label><br>
+            
+            <label for="weak"><input type="radio" class="radiobtn" id="weak" name="passwordtype" value="weak">Weak Password</label><br>
+            
+            <label for="funny"><input type="radio" class="radiobtn" id="funny" name="passwordtype" value="funny">Funny Password</label><br>
+            <input type="submit" id="typesubmit" value="Create">
+        </form>
+    <div id="alertid"></div>
+    </div>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  --> 
+</body>
+
+</html>
