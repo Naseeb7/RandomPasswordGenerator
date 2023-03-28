@@ -116,3 +116,10 @@ label:hover{
     position: absolute;
     bottom: .5rem;
 }
+.commentText{
+    display: flex;
+    color: #234E70;
+    font-size: xx-small;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
